@@ -44,7 +44,7 @@ public class CollectionsDemo {
             Iterator<Integer> numbersIterator = numberList.iterator();
             while (numbersIterator.hasNext()){
                 int currentNo = numbersIterator.next();
-                System.out.println("Next element in newCitiesList: " + currentNo);
+                System.out.println("Next element in numberList: " + currentNo);
                 numberList.add(currentNo + 1);
             }
         } catch(Exception exception){
@@ -53,7 +53,7 @@ public class CollectionsDemo {
             Iterator<Integer> copyOnWriteNumberListIterator = copyOnWriteNumberList.iterator();
             while (copyOnWriteNumberListIterator.hasNext()){
                 int currentNo = copyOnWriteNumberListIterator.next();
-                System.out.println("Next element in newcitiesList: " + currentNo);
+                System.out.println("Next element in numberList: " + currentNo);
                 copyOnWriteNumberList.add(currentNo + 1);
             }
         }
