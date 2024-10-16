@@ -10,7 +10,7 @@ public class Exercise6_Clone {
         list_string.add("Indore");
         list_string.add("Kolkata");
         list_string.add("Odisha");
-        System.out.println("Original array list: " + list_string);
+        System.out.println("Original Hashset: " + list_string);
         HashSet<String> new_list = new HashSet<String>();
         new_list = (HashSet)list_string.clone();
         System.out.println("Cloned Hashset: " + new_list);
