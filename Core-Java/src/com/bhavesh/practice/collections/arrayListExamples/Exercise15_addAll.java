@@ -11,7 +11,7 @@ public class Exercise15_addAll {
         list1.add("70");
         list1.add("65");
         list1.add("12");
-        System.out.println("First list : " + list1);
+         System.out.println("First list : " + list1);
 
         List<String> list2 = new ArrayList<>();
         list2.add("32");
