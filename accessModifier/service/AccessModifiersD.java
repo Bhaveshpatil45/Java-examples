@@ -1,7 +1,7 @@
-package com.bhavesh.practice.accessModifiers.service;
+package accessModifier.service;
 
-import com.bhavesh.practice.accessModifiers.model.Person;
-import com.bhavesh.practice.accessModifiers.model.PersonHandler;
+import accessModifier.model.Person;
+import accessModifier.model.PersonHandler;
 
 public class AccessModifiersD {
     public static void main(String[] args) {

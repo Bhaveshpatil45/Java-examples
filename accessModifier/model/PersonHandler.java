@@ -1,4 +1,4 @@
-package com.bhavesh.practice.accessModifiers.model;
+package accessModifier.model;
 
 import java.util.Scanner;
 

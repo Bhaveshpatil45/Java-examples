@@ -1,4 +1,4 @@
-package com.bhavesh.practice.accessModifiers.model;
+package accessModifier.model;
 
 public class Person {
     public String name;
