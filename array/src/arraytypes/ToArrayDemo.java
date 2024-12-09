@@ -1,4 +1,4 @@
-package com.bhavesh.practice.array;
+package arraytypes;
 
 import java.util.*;
 

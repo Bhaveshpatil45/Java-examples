@@ -1,4 +1,4 @@
-package com.bhavesh.practice.array;
+package arraytypes;
 
 public class ArrayDemo {
     public static void main(String[] args) {
