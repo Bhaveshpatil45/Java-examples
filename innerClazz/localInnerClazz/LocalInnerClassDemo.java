@@ -7,13 +7,13 @@ public class LocalInnerClassDemo {
         Vehicle truck = new Vehicle(400,"TATA","THX633","3 Ltr turbo","diesel");
 
         printTruckDetails(truck);
-        printCarEngineDetails(car.engine);
+        printTruckEngineDetails(truck.getEngine());
 
     }
     private static void printTruckDetails(Vehicle truck){
         System.out.println("truck Details" + truck);
     }
-    private static void printTruckEngineDetails(Car1.Engine engine){
-        System.out.println("Car Details" + engine);
+    private static void printTruckEngineDetails(Object engine){
+        System.out.println("Truck Details" + engine);
     }
 }
