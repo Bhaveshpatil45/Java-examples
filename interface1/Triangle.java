@@ -1,3 +1,5 @@
+package interface1;
+
 public class Triangle implements Shape{
     private double base;
     private double height;

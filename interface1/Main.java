@@ -1,3 +1,5 @@
+package interface1;
+
 import java.util.Scanner;
 
 public class Main {
@@ -5,9 +7,9 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Choose a shape to calculate the area:");
-        System.out.println("1. Circle");
-        System.out.println("2. Rectangle");
-        System.out.println("3. Triangle");
+        System.out.println("1. interface1.Circle");
+        System.out.println("2. interface1.Rectangle");
+        System.out.println("3. interface1.Triangle");
         int choice = scan.nextInt();
 
         Shape shape;
