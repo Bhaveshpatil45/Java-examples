@@ -1,4 +1,4 @@
-package com.bhavesh.practice.collections.illutration;
+package collections.illutration;
 
 import java.util.*;
 
