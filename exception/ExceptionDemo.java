@@ -23,6 +23,9 @@ public class ExceptionDemo {
             System.out.println("you are doing something wrong." +
                     "we have only 5 subject and you must not insert marks for 6th subject " +
                     "and the technical reason is " + exception.getMessage());
+        }catch (Exception exception){
+            System.out.println("Generic exception." +
+                    "and the technical reason is " + exception.getMessage());
         }
         System.out.println("marks of the student x: " + Arrays.toString(marks));
 
