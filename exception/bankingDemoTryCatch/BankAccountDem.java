@@ -36,7 +36,7 @@ public class BankAccountDem {
             } else {
                 System.out.println("Withdrawal amount must be positive.");
             }
-        } catch (Exception e) {
+        } catch (Exception exception) {
             System.err.println("Invalid input. Please enter a valid amount.");
         }
     }

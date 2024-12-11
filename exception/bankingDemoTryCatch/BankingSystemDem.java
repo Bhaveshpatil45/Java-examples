@@ -30,7 +30,7 @@ public class BankingSystemDem {
                 }else {
                     System.out.println("please select a valid option.");
                 }
-            }catch (Exception e){
+            }catch (Exception exception){
                 System.err.println("invalid input. try again");
             }
         }
