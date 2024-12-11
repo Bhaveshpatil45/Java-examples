@@ -19,7 +19,7 @@ public class ExceptionDemo {
         try{
             System.out.println("----------After marks data assignment complete----------");
             marks[5] = 95;
-        }catch (Exception exception){
+        }catch (ArrayIndexOutOfBoundsException exception){
             System.out.println("you are doing something wrong." +
                     "we have only 5 subject and you must not insert marks for 6th subject " +
                     "and the technical reason is " + exception.getMessage());
