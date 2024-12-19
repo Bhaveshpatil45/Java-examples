@@ -8,11 +8,11 @@ public class Product {
     private double price;
     private String supplier;
 
-    public Product(String supplier, int id, String category, String name, int quantity, double price) {
+    public Product(String supplier, int id, String name, String category, int quantity, double price) {
         this.supplier = supplier;
         this.id = id;
-        this.category = category;
         this.name = name;
+        this.category = category;
         this.quantity = quantity;
         this.price = price;
     }
