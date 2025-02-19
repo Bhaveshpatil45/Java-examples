@@ -12,7 +12,7 @@ public class MinAndMaxValue {
                 .min(Integer::compareTo)
                 .orElse(null);
         System.out.println("The minimum Value is: " + min_val);
-        
+
         int max_value = numbers.stream()
                 .max(Integer::compareTo)
                 .orElse(null);

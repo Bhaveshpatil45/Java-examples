@@ -5,12 +5,13 @@ import java.util.List;
 
 public class Average{
     public static void main(String[] args) {
-        List<Integer> nums = Arrays.asList(1,3,6,8,10,18,36);
-        System.out.println("List of numbers: " + nums);
-        Double average = nums .stream()
+        List<Integer> numbers = Arrays.asList(1,12,2,5,3,9,7);
+        System.out.println("Original List of number is: " + numbers);
+
+        double average = numbers.stream()
                 .mapToDouble(Integer::doubleValue)
                 .average()
                 .orElse(0.0);
-        System.out.println("Average values of said numbers: " + average);
+        System.out.println("Average of list is: " + average);
     }
 }
