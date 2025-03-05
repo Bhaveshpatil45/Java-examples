@@ -6,20 +6,13 @@ import java.util.stream.Collectors;
 
 public class SpecificLatter {
     public static void main(String[] args) {
-        List<String> colours = Arrays.asList("Green", "Yellow", "White", "Blue","Black");
-        System.out.println("original list is: " + colours);
-        char colorLatter = 'B';
+        List<String> numbers = Arrays.asList("9926123465", "9926127580","9923998124", "9926126574");
+        System.out.println("Original number are: " + numbers);
+        String count = "9926";
 
-        long ctr = colours.stream()
-                .filter(s -> s.startsWith(String.valueOf(colorLatter)))
+        long counts = numbers.stream()
+                .filter(s -> s.startsWith(count))
                 .count();
-        System.out.println("Number of color starting with: " + colorLatter + " = " + ctr);
-
-        char colorLatter2 = 'G';
-        long ctr2 = colours.stream()
-                .filter(s -> s.startsWith(String.valueOf(colorLatter2)))
-                .count();
-        System.out.println("Number of color start with: " + colorLatter2 + " = " + ctr2);
-
+        System.out.println(counts);
     }
 }
